@@ -1,4 +1,4 @@
-# Origins of the C programming language
+# Origins and evolution of the C programming language
 
 **C** was developed from 1969 to 1973 by Dennis Ritchie of Bell Laboratories. The American National Standards Institute (ANSI) ratified the ANSI C standard in 1989, and this standardization later became the responsibility of the International Standards Organization (ISO). The standards define the C language and a set of library functions known as the *C standard library*. Kernighan and Ritchie describe ANSI C in their classic book, which is known affectionately as “K&R”. In Ritchie’s words [92], C is “quirky, flawed, and an enormous success.” So why the success?
 
@@ -31,3 +31,22 @@ The options ```-ansi``` and ```-std=c89``` have identical effect—the code is c
 | ISO C99 | ```-std=c99``` |
 | ISO C11 | ```std=c11``` |
 
+## Typical sizes (in bytes) of basic C data types
+
+| C Declaration       | Bytes (32-bit) | Bytes (64-bit) |
+|---------------------|----------------|----------------|
+| signed char         | 1              | 1              |
+| unsigned char       | 1              | 1              |
+| short               | 2              | 2              |
+| unsigned short      | 2              | 2              |
+| int                 | 4              | 4              |
+| unsigned            | 4              | 4              |
+| long                | 4              | 8              |
+| unsigned long       | 4              | 8              |
+| int32_t             | 4              | 4              |
+| uint32_t            | 4              | 4              |
+| int64_t             | 8              | 8              |
+| uint64_t            | 8              | 8              |
+| char *              | 4              | 8              |
+| float               | 4              | 4              |
+| double              | 8              | 8              |
