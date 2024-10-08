@@ -4,5 +4,5 @@
 - [The GNU project](./GNUproject.md)
 - [Unix, Posix, and the Standard Unix Specification](./unixPosix.md)
 - [The Linux project](./linuxProject.md)
-- [Origin o "endian"](./originsOfEndian.md)
+- [Origins of "endian"](./originsOfEndian.md)
 - 
